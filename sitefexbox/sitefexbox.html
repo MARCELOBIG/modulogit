@@ -1,0 +1,269 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/> 
+		<meta name="viewport" content="width=device-width,user-scalable=0" />
+		<title>SITE FLEXBOX</title>
+		<link rel="stylesheet" type="text/css" href="flexbox.css" />
+		<script type="text/javascript">
+				window.onload = function(){
+				document.querySelector(".menuMobile").addEventListener("click", function(){
+				if(document.querySelector(".menu nav ul").style.display == 'flex') {
+					document.querySelector(".menu nav ul").style.display = 'none'; 
+				} else {
+					document.querySelector(".menu nav ul").style.display = 'flex'; 
+						}
+					});
+				};
+		</script>
+	</head>
+	<body>
+		<header>
+			<div class="container">		
+				<div class="logo">		
+					<a href=""><img src="imagens/logo.png" border="0" width="300" height="70" ></a>
+				</div>
+				<div class="menu">		
+					<nav>
+						<div class="menuMobile">
+							<a href=""><img src="imagens/list.png"></a>
+						
+						</div>
+						<ul>
+							<li class="active"><a href="">home</a></li>
+							<li><a href="">home</a></li>
+							<li><a href="">home</a></li>
+							<li><a href="">home</a></li>
+							<li><a href="">home</a></li>
+							<li><a href="">home</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<section id="banner">
+			<div class="container coluna">
+				<div class="baner_headline">
+					<h1>Tecnologia ao seu alcance</h1>
+					<h2>Tudo que você sonhou em um so click com segurança e comodidade </h2>
+				</div>
+				<div class="banner_options">
+					<div class=" banner1">
+						<div class="banner_titulo">Emergencia</div>
+						<div class="banner_desc">ligue para os numeros de emergencia indicados</div>
+						<a href="">read more</a>
+					</div>
+					<div class=" banner2">
+						<div class="banner_titulo">Tecnicos</div>
+						<div class="banner_desc">Tecnicos 24hs para melhor atender, onde e quando desejar</div>
+						<a href="">read more</a>
+					</div>
+					<div class=" banner3">
+						<div class="banner_titulo">Atendimento Residencial
+							<div class="banner_info">Atendimento Segunda 08:00 as 17:hs</div>
+							<div class="banner_info">Atendimento Quarta 08:00 as 17:hs</div>
+							<div class="banner_info">Atendimento Sexta 08:00 as 17:hs</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="geral">
+			<div class="container">
+				<section>
+					<div class="widget">
+						<div class="widget_titulo">
+							<div class="widget_titulo_text">Informativos</div>
+							<div class="widget_titulo_bar"></div>
+						</div>
+						<div class="widget_body flex">
+							<article>
+								<a href="">
+									<div class="news_data">
+										<div class="news_posted_at">26 MAR 18</div>
+										<div class="news_comentarios">100</div>
+									</div>
+									<div class="news_thmb">
+										<img src="imagens/familia2.png" />
+									</div>
+									<div class="news_titulo"> TECNOLOGIA DA INFORMAÇÃO</div>
+									<div class="news_resumo">Pode-se definir Tecnologia da Informação como o conjunto de todas as atividades e soluções providas por recursos de computação que visam a produção, o armazenamento, a transmissão, o acesso, a segurança e o uso das informações. </div>
+								</a>
+							</article>
+							<article>
+								<a href="">
+									<div class="news_data">
+										<div class="news_posted_at">26 MAR 18</div>
+										<div class="news_comentarios">100</div>
+									</div>
+									<div class="news_thmb">
+										<img src="imagens/familia2.png" />
+									</div>
+									<div class="news_titulo"> TECNOLOGIA DA INFORMAÇÃO</div>
+									<div class="news_resumo">Pode-se definir Tecnologia da Informação como o conjunto de todas as atividades e soluções providas por recursos de computação que visam a produção, o armazenamento, a transmissão, o acesso, a segurança e o uso das informações. </div>
+								</a>
+							</article>
+							<article>
+								<a href="">
+									<div class="news_data">
+										<div class="news_posted_at">26 MAR 18</div>
+										<div class="news_comentarios">100</div>
+									</div>
+									<div class="news_thmb">
+										<img src="imagens/familia2.png" />
+									</div>
+									<div class="news_titulo"> TECNOLOGIA DA INFORMAÇÃO</div>
+									<div class="news_resumo">Pode-se definir Tecnologia da Informação como o conjunto de todas as atividades e soluções providas por recursos de computação que visam a produção, o armazenamento, a transmissão, o acesso, a segurança e o uso das informações. </div>
+								</a>
+							</article>
+							<article>
+								<a href="">
+									<div class="news_data">
+										<div class="news_posted_at">26 MAR 18</div>
+										<div class="news_comentarios">100</div>
+									</div>
+									<div class="news_thmb">
+										<img src="imagens/familia2.png" />
+									</div>
+									<div class="news_titulo"> TECNOLOGIA DA INFORMAÇÃO</div>
+									<div class="news_resumo">Pode-se definir Tecnologia da Informação como o conjunto de todas as atividades e soluções providas por recursos de computação que visam a produção, o armazenamento, a transmissão, o acesso, a segurança e o uso das informações. </div>
+								</a>
+							</article>
+						 </div>
+					</div>
+				</section>
+				<aside>
+					<div class="widget">
+						<div class="widget_titulo">
+							<div class="widget_titulo_text">Departamentos</div>
+							<div class="widget_titulo_bar"></div>
+						</div>
+						<div class="widget_quadrado flex">
+							<a href=""><div ></div></a>
+							<a href=""><div ></div></a>
+							<a href=""><div ></div></a>
+							<a href=""><div ></div></a>
+							<a href=""><div ></div></a>
+							<a href=""><div ></div></a>
+						</div>
+					</div>
+					<div class="widget">
+						<div class="widget_titulo">
+							<div class="widget_titulo_text">Make An Appontment</div>
+							<div class="widget_titulo_bar"></div>
+						</div>
+						<div class="widget_body2_info"> Visite nos redes sociais e curta nossa pagina no facebook</div>
+						<div class="widget_body2_img">
+							<div><img src="imagens/cel.png"> nossos contato: (11)900009999</div>
+							<div><img src="imagens/msg.png"> nosso email: marcelo.galvao0722@gmail.com</div>
+							<div><img src="imagens/batp.png">link para nossa home page: http://....</div>
+						</div>
+					</div>
+				</aside>
+			</div>
+		</section>
+		<footer>
+			<div class="container flexcolumn">
+				<div class="footer_menu">
+					<div class="fm_1">
+						<div class="banner_titulo">Emergencia</div>
+						<div class="banner_desc">ligue para os numeros de emergencia indicados</div>
+					</div>
+					<div class="fm_2">
+						<div class="banner_titulo">Emergencia</div>
+						<div class="banner_desc">ligue para os numeros de emergencia indicados</div>
+					</div>
+					<div class="fm_3">
+						<div class="banner_titulo">Emergencia</div>
+						<div class="banner_desc">ligue para os numeros de emergencia indicados</div>
+					</div>
+				</div>
+				<div class="footer_aria">
+					<div class="footer_aria_item">
+						<div class="widget">
+							<div class="widget_titulo">
+								<div class="widget_titulo_text">Departamento</div>
+								<div class="widget_titulo_bar"></div>
+							</div>
+							<div class="footer_info">
+								<div class="footer_text">    
+									Pode-se definir Tecnologia da Informação como o conjunto de todas as atividades e soluções providas por recursos de computação que visam a produção, o armazenamento, a transmissão, o acesso, a segurança e o uso das informações.
+								</div>
+								<div class="footer_endereco">
+									<div class="footer_endereco_end">Vision </br> Rua: yaya,375</br>Cep:04410-010</br>São Paulo - Diadema </div>
+									<div class="footer_tel"> +11 948206649 </br> +11 948206649 </br> marcelo.galvao0722@gmail.com </div>
+								</div>
+							</div>
+							<div class="footer_info_img">
+								 <a href=""><img src="imagens/facebook.png"/></a>
+								 <a href=""><img src="imagens/twitter.png"/></a>
+								 <a href=""><img src="imagens/calendario.png"/></a>
+								 <a href=""><img src="imagens/envelope.png"/></a>
+							</div>
+						</div>
+					</div>
+					<div class="footer_aria_item">
+						<div class="widget">
+							<div class="widget_titulo">
+								<div class="widget_titulo_text">Ultimos Posts</div>
+								<div class="widget_titulo_bar"></div>
+							</div>
+							<div class="footer_post">
+								<img src="imagens/seta.png"/>
+								<div class="footer_post_tex">produto com qualidade e procedencia, sem duvidas eu dou nota 10
+								</div>
+							</div>
+							<div class="footer_post_tex2">6 meses agos</div>
+							<div class="footer_post">
+								<img src="imagens/seta.png"/>
+								<div class="footer_post_tex">produto com qualidade e procedencia, sem duvidas eu dou nota 10
+								</div>
+							</div>
+							<div class="footer_post_tex2">6 meses agos</div>
+							<div class="footer_post">
+								<img src="imagens/seta.png"/>
+								<div class="footer_post_tex">produto com qualidade e procedencia, sem duvidas eu dou nota 10
+								</div>
+							</div>
+							<div class="footer_post_tex2">6 meses agos</div>
+						</div>
+					</div>
+					<div class="footer_aria_item">
+						<div class="widget">
+							<div class="widget_titulo">
+								<div class="widget_titulo_text">Ultimos Twitter</div>
+								<div class="widget_titulo_bar"></div>
+							</div>
+							<div class="footer_twitter">
+								<div class="footer_post">
+									<img src="imagens/seta.png"/>
+									<div class="footer_post_tex">produto com qualidade e procedencia, sem duvidas eu dou nota 10
+									</div>
+								</div>
+								<div class="footer_post_tex2">27 mar</div>
+								<div class="footer_post">
+									<img src="imagens/seta.png"/>
+									<div class="footer_post_tex">produto com qualidade e procedencia, sem duvidas eu dou nota 10
+									</div>
+								</div>
+								<div class="footer_post_tex2">27 mar</div>
+								<div class="footer_post">
+									<img src="imagens/seta.png"/>
+									<div class="footer_post_tex">produto com qualidade e procedencia, sem duvidas eu dou nota 10
+									</div>
+								</div>
+								<div class="footer_post_tex2">27 mar</div>
+								<div class="footer_post">
+									<img src="imagens/seta.png"/>
+									<div class="footer_post_tex">produto com qualidade e procedencia, sem duvidas eu dou nota 10
+									</div>
+								</div>
+								<div class="footer_post_tex2">27 mar</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer_copy"> Coyright - todos os direitos reservados a marcelo big</div>
+			</div>
+		</footer>
+	</body>
+</html>
